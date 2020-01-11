@@ -1,0 +1,105 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;  
+  background: #00c3ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ /*
+
+background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background:linear-gradient(to right, #00416a, #799f0c, #ffe000);
+
+}
+.loginbox {
+  color: white;
+  margin: 0px auto;
+  position: absolute;
+  width: 50vw;
+  top:50%;
+  left:50%;
+  opacity: 0.8;
+  transform: translate(-50%,-50%);
+  top:350px;
+
+}
+.logo{
+  width: 100px;
+  height:100px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+  margin-bottom: 20px;
+
+}
+.loginbox h1{
+  margin-bottom: 30px;
+  color: black;
+  font-size: 40px;
+  font-style: italic;
+  opacity: 0.9;
+
+  /* position: absolute; */
+  /* top:-120px;
+left:150px; */
+text-align: center;
+}
+.loginbox p{
+  margin: 0px;
+  padding: 0px;
+font-size: 30px;
+font-style: initial;
+font-weight: bold;
+
+}
+.loginbox input{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  width: 100%;
+
+  }
+.loginbox input[type="submit"]{
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  height:40px;
+  background: deepskyblue;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 20px;
+  border-style:hidden;
+  border-radius: 10px;
+
+}
+.loginbox input[type="submit"]:hover{
+
+background-color: darkgray;
+color: black;
+
+}
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+}
+.loginbox a:hover{
+  background-color: darkgray;
+}
+
+
+
+
+
+.loginbox input[type="text"] , input[type="password"]
+{
+border: none;
+border-bottom: 1px solid black;
+background: transparent;
+/* opacity: 0.9; */
+outline:none;
+height:40px;
+}

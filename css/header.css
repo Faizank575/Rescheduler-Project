@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'Montserrat', sans-serif;;
+}
+
+.toggle{
+    background: white;
+    height: 7vh;
+    z-index: 5;
+    width: 100vw;
+}
+.logo-img{
+    vertical-align: middle;
+    width: 90vw;
+    display: inline-block;
+}
+.logo-img img{
+    height: 7vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.toggle-bars{
+    vertical-align: middle;
+    display: inline-block;
+    color: #722372;
+    font-size: 30px;
+}
+.toggle-bars i{
+    text-align: right;
+}
+.nav{
+    display: none;
+}
+.logo-img1{
+    display: none;
+}
+
+.nav li{
+    width: 100%;
+    display: block;
+    background-color: #ed8738;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a:active{
+    color: black;
+}
+.show{
+    display: block;
+}
+.nav a.login-btn{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    color:black;
+}
+.nav a.login-btn:hover{
+    color:#ed8738;
+    background-color: black;
+}
+
+@media(min-width:667px){
+    .toggle{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        display: block;
+        height: 11vh;
+        z-index: 5;
+    }
+    .nav a.login-btn{
+        background: black;
+        color: white;
+    }
+    .logo-img1{
+        vertical-align: middle;
+        width: 23%;
+        line-height: 11vh;
+        display: inline-block;
+    }
+    .logo-img1 h2{
+        font-weight: bold;
+        text-align: center;
+    }
+    .logo-img1 h2:hover{
+        color: #ed8738;
+    }
+    .navbar{
+        width: 75%;
+        display: inline-block;
+        text-align: right;
+    }
+    .nav ul{
+        width: auto;
+        display: inline-block;
+        background: white;
+        opacity: 0.7;
+        
+    }
+    .nav li{
+        width: auto;
+        color: black;
+        display: inline-block;
+        background-color: transparent;
+    }
+    .nav a{
+        width: auto;
+        color: black;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .nav li:hover{
+        background-color: darkorange;
+    }
+}
+@media(min-width:750px){
+    .nav a{
+        font-size: 15px;
+    }
+}

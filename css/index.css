@@ -1,0 +1,47 @@
+
+.background{
+    height: 80vh;
+    width: 100vw;
+}
+.background .main-image{
+    width: 100%;
+    height: 100%;
+    background: url('../images/agenda-appointment-business-1020323.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.core-features{
+  margin: 3px 0px 5px 0px;
+  width: 100%;
+  background-color: #ed8738;
+}
+.core-features h1{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.core-feature{
+  display: inline-block;
+  width: 24%;
+  padding: 10px;
+}
+
+.core-feature-logo{
+  width: 60%;
+  border-radius:50%;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+div[class$="feature-content"]{
+  text-align: center;
+}
+.core-feature-content h2, .core-feature-content p{
+  font-family: 'Montserrat', sans-serif;
+  padding: 7px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+

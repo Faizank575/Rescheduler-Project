@@ -1,0 +1,123 @@
+
+
+body {
+  /* font-weight: 100;
+  font-size: 12px; */
+  line-height: 30px;
+  margin-top: 10px;
+  color: #777;
+  background: url('../images/arizona-asphalt-beautiful-490466.jpg');
+}
+.centering-element{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contact-container {
+  margin-top: 150px;
+  margin-bottom:150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  position: relative; 
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+#contact {
+display: inline-block;
+width: 50%;
+vertical-align: center;
+background: #F9F9F9;
+padding: 25px;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+.contact-address{
+    width: 30%;
+    margin-left: 10px;
+    vertical-align: bottom;
+    display: inline-block;
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.contact-address i{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+.contact-address i span{
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
